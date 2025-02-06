@@ -1,26 +1,25 @@
 import { Discord, Telegram } from "@/Images";
 import Image from "next/image";
 import React from "react";
+import { BsTwitterX } from "react-icons/bs";
 
 const Footer = () => {
   return (
     <footer className="w-[100vw] relative overflow-hidden">
-          <div className="container max-w-[88rem] mx-auto relative flex flex-col items-center justify-start pt-[100px]">
-              <div className="absolute bottom-0 left-0 right-0  h-[40px] z-30 flex flex-row items-center justify-between py-[20px] px-[40px] ">
-                  <p className="text-[#282828] font-jockey text-[14px] leading-normal">@ 2025 SuperBowl, Inc. All rights reserved</p>
-                  <div className="flex flex-row items-center justify-start gap-12">
-                      <a href="https://discord.com/">
-                      <Telegram/>
-                      </a>
-                      <a href="https://discord.com/">
-                      <Discord/>
-                      </a>
-                      <a href="https://discord.com/">
-                      <Telegram/>
-                      </a>
-                      
-                  </div>
-              </div>
+      <div className="container max-w-[88rem] mx-auto relative flex flex-col items-center justify-start pt-[100px]">
+        <div className="absolute bottom-0 left-0 right-0  h-[40px] z-30 flex flex-row items-center justify-between py-[20px] px-[40px] ">
+          <p className="text-[#282828] font-jockey text-[14px] leading-normal">
+            @ 2025 SuperBowl, Inc. All rights reserved
+          </p>
+          <div className="flex flex-row items-center justify-start gap-8">
+            <a href="t.me/superbowl_official">
+              <Telegram />
+            </a>
+            <a href="https://x.com/superbowl_ofcl">
+              <BsTwitterX />
+            </a>
+          </div>
+        </div>
         <p className="heading text-[154px] leading-[100%] font-freshman relative top-[50px] ">
           SUPERBOWL
         </p>
