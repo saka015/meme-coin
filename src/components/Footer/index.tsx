@@ -1,4 +1,4 @@
-import { Discord, Telegram } from "@/Images";
+import { Telegram } from "@/Images";
 import Image from "next/image";
 import React from "react";
 import { BsTwitterX } from "react-icons/bs";
