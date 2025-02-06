@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="w-[100vw] relative overflow-hidden">
           <div className="container max-w-[88rem] mx-auto relative flex flex-col items-center justify-start pt-[100px]">
               <div className="absolute bottom-0 left-0 right-0  h-[40px] z-30 flex flex-row items-center justify-between py-[20px] px-[40px] ">
-                  <p className="text-[#282828] font-jockey text-[14px] leading-normal">@ 2024 Your Company, Inc. All rights reserved</p>
+                  <p className="text-[#282828] font-jockey text-[14px] leading-normal">@ 2025 SuperBowl, Inc. All rights reserved</p>
                   <div className="flex flex-row items-center justify-start gap-12">
                       <a href="https://discord.com/">
                       <Telegram/>
